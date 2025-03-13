@@ -94,7 +94,12 @@ void run(struct pish_arg *arg)
 
 	if (strcmp(arg->argv[0], "history") == 0) {
 		//history
+		//
 		add_history(arg);
+		if (arg->argc > 1) { 
+        		usage_error();
+        		return;
+    		}
 		print_history();		
         	return;
 	}
