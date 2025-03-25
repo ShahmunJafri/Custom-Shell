@@ -1,3 +1,5 @@
 # pa4-shell
 
-Assignment specifications: https://cse29winter2025.github.io/pa4
+Assignment specifications:  
+
+Created a custom shell like bash on macbook. This project demonstrates understanding of CPU processes. 
